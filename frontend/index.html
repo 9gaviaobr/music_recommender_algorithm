@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Collect · AI Music Recommender</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Collect · AI Music Recommender</h1>
+      <p class="tagline">A simple, transparent demo of how content-based recommendations work.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <h2>Explore the catalog</h2>
+      <p class="muted">Pick a seed track to get similar songs, or tune the sliders to generate recommendations from your taste profile.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Seed a track</h3>
+          <div id="tracks" class="track-list" aria-live="polite"></div>
+        </div>
+        <div class="card">
+          <h3>Or set your preferences</h3>
+          <form id="prefs-form">
+            <label>Danceability <input type="range" min="0" max="1" step="0.01" id="danceability" value="0.5"/></label>
+            <label>Energy <input type="range" min="0" max="1" step="0.01" id="energy" value="0.5"/></label>
+            <label>Valence <input type="range" min="0" max="1" step="0.01" id="valence" value="0.5"/></label>
+            <label>Tempo <input type="range" min="0" max="1" step="0.01" id="tempo" value="0.5"/></label>
+            <button type="submit" class="btn">Recommend from preferences</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Recommendations</h2>
+      <div id="results" class="results" aria-live="polite"></div>
+    </section>
+
+    <section class="panel explain">
+      <h2>How it works</h2>
+      <p>This demo uses a tiny content-based model. Each track has features like danceability, energy, valence, and tempo (scaled 0–1). When you pick a seed song or set preferences, we calculate <strong>cosine similarity</strong> between that feature vector and every track, then return the top matches.</p>
+      <p>It’s intentionally simple so you can see what’s happening end-to-end without hidden training or external services.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <small>© <span id="year"></span> Collect · Built with HTML, CSS, JS, and Python stdlib</small>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+<!-- No frameworks. No build step. Pure HTML/CSS/JS + Python stdlib server. -->
+</html>
+
+
